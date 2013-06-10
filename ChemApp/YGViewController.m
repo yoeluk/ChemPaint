@@ -469,6 +469,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)dismissModalView {
+	[self dismissViewControllerAnimated:YES completion:^{
+		
+	}];
+}
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
 	
@@ -485,6 +490,12 @@
 			if ([self.parentViewController childViewControllers].count == 2) {
 				NSLog(@"Good!");
 			}
+			[self presentViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"lsDocNavController"] animated:YES completion:^{
+				
+				UIBarButtonItem *closeBtn = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStyleBordered target:self action:@selector(dismissModalView)];
+				
+				((UIViewController *)[[((UINavigationController *)self.presentedViewController) viewControllers] objectAtIndex:0]).navigationItem.leftBarButtonItem = closeBtn;
+			}];
 		}
 		
 		return NO;
