@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2950899D1744EC47009B108A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2950899B1744EC47009B108A /* logo.png */; };
+		2950899E1744EC47009B108A /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2950899C1744EC47009B108A /* logo@2x.png */; };
+		29602E0D175FFCD5005D4C8D /* YGTableFeatureRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29602E0C175FFCD5005D4C8D /* YGTableFeatureRequest.m */; };
+		29602E101760F258005D4C8D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 29602E0E1760F258005D4C8D /* image.png */; };
+		29602E111760F258005D4C8D /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29602E0F1760F258005D4C8D /* image@2x.png */; };
+		29602E1917613AFC005D4C8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29602E1817613AFC005D4C8D /* SystemConfiguration.framework */; };
+		29602E1A17613C13005D4C8D /* YGConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 29602E1517613A67005D4C8D /* YGConnectivity.m */; };
+		29602E1B17613C1D005D4C8D /* YGWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29602E1717613AA5005D4C8D /* YGWebServer.m */; };
+		29602E1F1763BFF9005D4C8D /* YGChemPaintDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 29602E1E1763BFF9005D4C8D /* YGChemPaintDoc.m */; };
+		29602E221763C8E0005D4C8D /* YGDocumentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 29602E211763C8E0005D4C8D /* YGDocumentHelper.m */; };
+		296322081721E34A003BB8CC /* htmlDownload in Resources */ = {isa = PBXBuildFile; fileRef = 296322071721E34A003BB8CC /* htmlDownload */; };
+		2963220C1721E61E003BB8CC /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2963220B1721E5B9003BB8CC /* SSZipArchive.m */; };
+		2963220E1721E684003BB8CC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2963220D1721E684003BB8CC /* libz.dylib */; };
+		296322381721E8BA003BB8CC /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 296322301721E8BA003BB8CC /* ioapi.c */; };
+		296322391721E8BA003BB8CC /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 296322321721E8BA003BB8CC /* mztools.c */; };
+		2963223A1721E8BA003BB8CC /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 296322341721E8BA003BB8CC /* unzip.c */; };
+		2963223B1721E8BA003BB8CC /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 296322361721E8BA003BB8CC /* zip.c */; };
+		29A95DFA1726997C0025A69F /* YGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 296322401723C158003BB8CC /* YGWebView.m */; };
+		29A95DFD1726C9330025A69F /* YGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A95DFC1726C9330025A69F /* YGSplitViewController.m */; };
+		29D5161B17565AC000D2358A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D5161A17565AC000D2358A /* ImageIO.framework */; };
+		29D7DE781743FB6E00E4748B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D7DE771743FB6E00E4748B /* Icon-72@2x.png */; };
+		29D7DE7A1744080500E4748B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D7DE791744080500E4748B /* Icon-72.png */; };
+		29E054541764924A0042798A /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E054521764924A0042798A /* Storyboard_iPhone.storyboard */; };
+		29E05456176495700042798A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E05455176495700042798A /* Icon@2x.png */; };
+		29E05458176495750042798A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E05457176495750042798A /* Icon.png */; };
+		29E3E73E1704C8A50020C6E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E3E73D1704C8A50020C6E5 /* UIKit.framework */; };
+		29E3E7401704C8A50020C6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E3E73F1704C8A50020C6E5 /* Foundation.framework */; };
+		29E3E7421704C8A50020C6E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E3E7411704C8A50020C6E5 /* CoreGraphics.framework */; };
+		29E3E7481704C8A50020C6E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E3E7461704C8A50020C6E5 /* InfoPlist.strings */; };
+		29E3E74A1704C8A50020C6E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3E7491704C8A50020C6E5 /* main.m */; };
+		29E3E74E1704C8A50020C6E5 /* YGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3E74D1704C8A50020C6E5 /* YGAppDelegate.m */; };
+		29E3E7501704C8A50020C6E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E3E74F1704C8A50020C6E5 /* Default.png */; };
+		29E3E7521704C8A50020C6E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E3E7511704C8A50020C6E5 /* Default@2x.png */; };
+		29E3E7541704C8A50020C6E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E3E7531704C8A50020C6E5 /* Default-568h@2x.png */; };
+		29E3E7571704C8A50020C6E5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E3E7551704C8A50020C6E5 /* MainStoryboard.storyboard */; };
+		29E3E75A1704C8A50020C6E5 /* YGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3E7591704C8A50020C6E5 /* YGViewController.m */; };
+		29F173971707947B00091D1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F173961707947B00091D1D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2950899B1744EC47009B108A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2950899C1744EC47009B108A /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		29602E0B175FFCD5005D4C8D /* YGTableFeatureRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTableFeatureRequest.h; sourceTree = "<group>"; };
+		29602E0C175FFCD5005D4C8D /* YGTableFeatureRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTableFeatureRequest.m; sourceTree = "<group>"; };
+		29602E0E1760F258005D4C8D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		29602E0F1760F258005D4C8D /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
+		29602E1417613A67005D4C8D /* YGConnectivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGConnectivity.h; sourceTree = "<group>"; };
+		29602E1517613A67005D4C8D /* YGConnectivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGConnectivity.m; sourceTree = "<group>"; };
+		29602E1617613AA5005D4C8D /* YGWebServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGWebServer.h; sourceTree = "<group>"; };
+		29602E1717613AA5005D4C8D /* YGWebServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGWebServer.m; sourceTree = "<group>"; };
+		29602E1817613AFC005D4C8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		29602E1C17632339005D4C8D /* ChemPaint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChemPaint.entitlements; sourceTree = "<group>"; };
+		29602E1D1763BFF9005D4C8D /* YGChemPaintDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGChemPaintDoc.h; sourceTree = "<group>"; };
+		29602E1E1763BFF9005D4C8D /* YGChemPaintDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGChemPaintDoc.m; sourceTree = "<group>"; };
+		29602E201763C8E0005D4C8D /* YGDocumentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGDocumentHelper.h; sourceTree = "<group>"; };
+		29602E211763C8E0005D4C8D /* YGDocumentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDocumentHelper.m; sourceTree = "<group>"; };
+		296322071721E34A003BB8CC /* htmlDownload */ = {isa = PBXFileReference; lastKnownFileType = folder; path = htmlDownload; sourceTree = "<group>"; };
+		2963220A1721E5B9003BB8CC /* SSZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = ChemApp/SSZipArchive.h; sourceTree = "<group>"; };
+		2963220B1721E5B9003BB8CC /* SSZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = ChemApp/SSZipArchive.m; sourceTree = "<group>"; };
+		2963220D1721E684003BB8CC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2963222F1721E8BA003BB8CC /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		296322301721E8BA003BB8CC /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		296322311721E8BA003BB8CC /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		296322321721E8BA003BB8CC /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		296322331721E8BA003BB8CC /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		296322341721E8BA003BB8CC /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		296322351721E8BA003BB8CC /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		296322361721E8BA003BB8CC /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		296322371721E8BA003BB8CC /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		2963223F1723C158003BB8CC /* YGWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGWebView.h; sourceTree = "<group>"; };
+		296322401723C158003BB8CC /* YGWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGWebView.m; sourceTree = "<group>"; };
+		29A95DFB1726C9330025A69F /* YGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSplitViewController.h; sourceTree = "<group>"; };
+		29A95DFC1726C9330025A69F /* YGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSplitViewController.m; sourceTree = "<group>"; };
+		29D5161A17565AC000D2358A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		29D7DE771743FB6E00E4748B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		29D7DE791744080500E4748B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		29E054531764924A0042798A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		29E05455176495700042798A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		29E05457176495750042798A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		29E3E73A1704C8A50020C6E5 /* ChemPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E3E73D1704C8A50020C6E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29E3E73F1704C8A50020C6E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29E3E7411704C8A50020C6E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29E3E7451704C8A50020C6E5 /* ChemPaint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChemPaint-Info.plist"; sourceTree = "<group>"; };
+		29E3E7471704C8A50020C6E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29E3E7491704C8A50020C6E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E3E74B1704C8A50020C6E5 /* ChemPaint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChemPaint-Prefix.pch"; sourceTree = "<group>"; };
+		29E3E74C1704C8A50020C6E5 /* YGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGAppDelegate.h; sourceTree = "<group>"; };
+		29E3E74D1704C8A50020C6E5 /* YGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGAppDelegate.m; sourceTree = "<group>"; };
+		29E3E74F1704C8A50020C6E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		29E3E7511704C8A50020C6E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		29E3E7531704C8A50020C6E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		29E3E7561704C8A50020C6E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		29E3E7581704C8A50020C6E5 /* YGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGViewController.h; sourceTree = "<group>"; };
+		29E3E7591704C8A50020C6E5 /* YGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGViewController.m; sourceTree = "<group>"; };
+		29F173961707947B00091D1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E3E7371704C8A50020C6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29602E1917613AFC005D4C8D /* SystemConfiguration.framework in Frameworks */,
+				29D5161B17565AC000D2358A /* ImageIO.framework in Frameworks */,
+				2963220E1721E684003BB8CC /* libz.dylib in Frameworks */,
+				29E3E7421704C8A50020C6E5 /* CoreGraphics.framework in Frameworks */,
+				29F173971707947B00091D1D /* QuartzCore.framework in Frameworks */,
+				29E3E73E1704C8A50020C6E5 /* UIKit.framework in Frameworks */,
+				29E3E7401704C8A50020C6E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2963222E1721E8BA003BB8CC /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				2963222F1721E8BA003BB8CC /* crypt.h */,
+				296322301721E8BA003BB8CC /* ioapi.c */,
+				296322311721E8BA003BB8CC /* ioapi.h */,
+				296322321721E8BA003BB8CC /* mztools.c */,
+				296322331721E8BA003BB8CC /* mztools.h */,
+				296322341721E8BA003BB8CC /* unzip.c */,
+				296322351721E8BA003BB8CC /* unzip.h */,
+				296322361721E8BA003BB8CC /* zip.c */,
+				296322371721E8BA003BB8CC /* zip.h */,
+			);
+			name = minizip;
+			path = ChemApp/minizip;
+			sourceTree = "<group>";
+		};
+		29E3E7311704C8A50020C6E5 = {
+			isa = PBXGroup;
+			children = (
+				29E05457176495750042798A /* Icon.png */,
+				29E05455176495700042798A /* Icon@2x.png */,
+				29602E1C17632339005D4C8D /* ChemPaint.entitlements */,
+				29D7DE791744080500E4748B /* Icon-72.png */,
+				29D7DE771743FB6E00E4748B /* Icon-72@2x.png */,
+				2950899B1744EC47009B108A /* logo.png */,
+				29602E0E1760F258005D4C8D /* image.png */,
+				29602E0F1760F258005D4C8D /* image@2x.png */,
+				2950899C1744EC47009B108A /* logo@2x.png */,
+				29E3E7431704C8A50020C6E5 /* ChemApp */,
+				29FF634E1721D2DD00EAB7F4 /* Resources */,
+				29E3E73C1704C8A50020C6E5 /* Frameworks */,
+				29E3E73B1704C8A50020C6E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E3E73B1704C8A50020C6E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E3E73A1704C8A50020C6E5 /* ChemPaint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E3E73C1704C8A50020C6E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2963220D1721E684003BB8CC /* libz.dylib */,
+				29602E1817613AFC005D4C8D /* SystemConfiguration.framework */,
+				29D5161A17565AC000D2358A /* ImageIO.framework */,
+				29F173961707947B00091D1D /* QuartzCore.framework */,
+				29E3E73D1704C8A50020C6E5 /* UIKit.framework */,
+				29E3E73F1704C8A50020C6E5 /* Foundation.framework */,
+				29E3E7411704C8A50020C6E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29E3E7431704C8A50020C6E5 /* ChemApp */ = {
+			isa = PBXGroup;
+			children = (
+				29E3E7601704C9920020C6E5 /* webViewSources */,
+				29602E1417613A67005D4C8D /* YGConnectivity.h */,
+				29602E1517613A67005D4C8D /* YGConnectivity.m */,
+				29602E1617613AA5005D4C8D /* YGWebServer.h */,
+				29602E1717613AA5005D4C8D /* YGWebServer.m */,
+				29602E0B175FFCD5005D4C8D /* YGTableFeatureRequest.h */,
+				29602E0C175FFCD5005D4C8D /* YGTableFeatureRequest.m */,
+				29E3E74C1704C8A50020C6E5 /* YGAppDelegate.h */,
+				29E3E74D1704C8A50020C6E5 /* YGAppDelegate.m */,
+				29E3E7551704C8A50020C6E5 /* MainStoryboard.storyboard */,
+				29E054521764924A0042798A /* Storyboard_iPhone.storyboard */,
+				29602E1D1763BFF9005D4C8D /* YGChemPaintDoc.h */,
+				29602E1E1763BFF9005D4C8D /* YGChemPaintDoc.m */,
+				29602E201763C8E0005D4C8D /* YGDocumentHelper.h */,
+				29602E211763C8E0005D4C8D /* YGDocumentHelper.m */,
+				29E3E7581704C8A50020C6E5 /* YGViewController.h */,
+				29E3E7591704C8A50020C6E5 /* YGViewController.m */,
+				29A95DFB1726C9330025A69F /* YGSplitViewController.h */,
+				29A95DFC1726C9330025A69F /* YGSplitViewController.m */,
+				2963223F1723C158003BB8CC /* YGWebView.h */,
+				296322401723C158003BB8CC /* YGWebView.m */,
+				29E3E7441704C8A50020C6E5 /* Supporting Files */,
+			);
+			path = ChemApp;
+			sourceTree = "<group>";
+		};
+		29E3E7441704C8A50020C6E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E3E7451704C8A50020C6E5 /* ChemPaint-Info.plist */,
+				29E3E7461704C8A50020C6E5 /* InfoPlist.strings */,
+				29E3E7491704C8A50020C6E5 /* main.m */,
+				29E3E74B1704C8A50020C6E5 /* ChemPaint-Prefix.pch */,
+				29E3E74F1704C8A50020C6E5 /* Default.png */,
+				29E3E7511704C8A50020C6E5 /* Default@2x.png */,
+				29E3E7531704C8A50020C6E5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29E3E7601704C9920020C6E5 /* webViewSources */ = {
+			isa = PBXGroup;
+			children = (
+				296322071721E34A003BB8CC /* htmlDownload */,
+			);
+			name = webViewSources;
+			sourceTree = "<group>";
+		};
+		29FF634E1721D2DD00EAB7F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2963222E1721E8BA003BB8CC /* minizip */,
+				2963220A1721E5B9003BB8CC /* SSZipArchive.h */,
+				2963220B1721E5B9003BB8CC /* SSZipArchive.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E3E7391704C8A50020C6E5 /* ChemPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E3E75D1704C8A50020C6E5 /* Build configuration list for PBXNativeTarget "ChemPaint" */;
+			buildPhases = (
+				29E3E7361704C8A50020C6E5 /* Sources */,
+				29E3E7371704C8A50020C6E5 /* Frameworks */,
+				29E3E7381704C8A50020C6E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemPaint;
+			productName = ChemApp;
+			productReference = 29E3E73A1704C8A50020C6E5 /* ChemPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E3E7321704C8A50020C6E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lewis Dots";
+			};
+			buildConfigurationList = 29E3E7351704C8A50020C6E5 /* Build configuration list for PBXProject "ChemPaint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29E3E7311704C8A50020C6E5;
+			productRefGroup = 29E3E73B1704C8A50020C6E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E3E7391704C8A50020C6E5 /* ChemPaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E3E7381704C8A50020C6E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E3E7481704C8A50020C6E5 /* InfoPlist.strings in Resources */,
+				29E3E7501704C8A50020C6E5 /* Default.png in Resources */,
+				29E3E7521704C8A50020C6E5 /* Default@2x.png in Resources */,
+				29E3E7541704C8A50020C6E5 /* Default-568h@2x.png in Resources */,
+				29E3E7571704C8A50020C6E5 /* MainStoryboard.storyboard in Resources */,
+				296322081721E34A003BB8CC /* htmlDownload in Resources */,
+				29D7DE781743FB6E00E4748B /* Icon-72@2x.png in Resources */,
+				29D7DE7A1744080500E4748B /* Icon-72.png in Resources */,
+				2950899D1744EC47009B108A /* logo.png in Resources */,
+				2950899E1744EC47009B108A /* logo@2x.png in Resources */,
+				29602E101760F258005D4C8D /* image.png in Resources */,
+				29602E111760F258005D4C8D /* image@2x.png in Resources */,
+				29E054541764924A0042798A /* Storyboard_iPhone.storyboard in Resources */,
+				29E05456176495700042798A /* Icon@2x.png in Resources */,
+				29E05458176495750042798A /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E3E7361704C8A50020C6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29602E1B17613C1D005D4C8D /* YGWebServer.m in Sources */,
+				29602E1A17613C13005D4C8D /* YGConnectivity.m in Sources */,
+				2963220C1721E61E003BB8CC /* SSZipArchive.m in Sources */,
+				29E3E74A1704C8A50020C6E5 /* main.m in Sources */,
+				29E3E74E1704C8A50020C6E5 /* YGAppDelegate.m in Sources */,
+				29E3E75A1704C8A50020C6E5 /* YGViewController.m in Sources */,
+				296322381721E8BA003BB8CC /* ioapi.c in Sources */,
+				296322391721E8BA003BB8CC /* mztools.c in Sources */,
+				2963223A1721E8BA003BB8CC /* unzip.c in Sources */,
+				2963223B1721E8BA003BB8CC /* zip.c in Sources */,
+				29A95DFA1726997C0025A69F /* YGWebView.m in Sources */,
+				29A95DFD1726C9330025A69F /* YGSplitViewController.m in Sources */,
+				29602E0D175FFCD5005D4C8D /* YGTableFeatureRequest.m in Sources */,
+				29602E1F1763BFF9005D4C8D /* YGChemPaintDoc.m in Sources */,
+				29602E221763C8E0005D4C8D /* YGDocumentHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29E054521764924A0042798A /* Storyboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E054531764924A0042798A /* en */,
+			);
+			name = Storyboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		29E3E7461704C8A50020C6E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E3E7471704C8A50020C6E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29E3E7551704C8A50020C6E5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E3E7561704C8A50020C6E5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E3E75B1704C8A50020C6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		29E3E75C1704C8A50020C6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yoel GARCIA DIAZ";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yoel GARCIA DIAZ";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "18C7EB01-452D-419D-A332-90AF238BC47E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "18C7EB01-452D-419D-A332-90AF238BC47E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E3E75E1704C8A50020C6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ChemPaint.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChemApp/ChemPaint-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "ChemApp/ChemPaint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = ChemPaint;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29E3E75F1704C8A50020C6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ChemPaint.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yoel GARCIA DIAZ";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChemApp/ChemPaint-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "ChemApp/ChemPaint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = ChemPaint;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "18C7EB01-452D-419D-A332-90AF238BC47E";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E3E7351704C8A50020C6E5 /* Build configuration list for PBXProject "ChemPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E3E75B1704C8A50020C6E5 /* Debug */,
+				29E3E75C1704C8A50020C6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E3E75D1704C8A50020C6E5 /* Build configuration list for PBXNativeTarget "ChemPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E3E75E1704C8A50020C6E5 /* Debug */,
+				29E3E75F1704C8A50020C6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29E3E7321704C8A50020C6E5 /* Project object */;
+}
