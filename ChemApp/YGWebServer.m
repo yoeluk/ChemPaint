@@ -12,7 +12,6 @@
 
 + (void)webServerRequest:(NSDictionary *)dictRequest service:(NSString *)service method:(NSString *)method  {
 	
-	
 	NSError *RequestError = nil;
 	NSString *urlHead = @"http://www.lewisdots.com/";
 	//NSString *urlHead = @"http://50.116.20.18/";
