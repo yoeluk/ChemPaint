@@ -105,6 +105,10 @@
 		29E3E7591704C8A50020C6E5 /* YGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGViewController.m; sourceTree = "<group>"; };
 		29E5B0ED1765DB4600FCAC24 /* YGLoadSaveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLoadSaveController.h; sourceTree = "<group>"; };
 		29E5B0EE1765DB4600FCAC24 /* YGLoadSaveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLoadSaveController.m; sourceTree = "<group>"; };
+		29E5B0F81765F6D000FCAC24 /* NSDate+FormattedStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedStrings.h"; sourceTree = "<group>"; };
+		29E5B0F91765F6D000FCAC24 /* NSDate+FormattedStrings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedStrings.m"; sourceTree = "<group>"; };
+		29E5B0FA1765F6D000FCAC24 /* UIImageExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		29E5B0FB1765F6D000FCAC24 /* UIImageExtras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
 		29F173961707947B00091D1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -280,6 +284,10 @@
 		29E5B0F71765F59A00FCAC24 /* HelperClasses */ = {
 			isa = PBXGroup;
 			children = (
+				29E5B0F81765F6D000FCAC24 /* NSDate+FormattedStrings.h */,
+				29E5B0F91765F6D000FCAC24 /* NSDate+FormattedStrings.m */,
+				29E5B0FA1765F6D000FCAC24 /* UIImageExtras.h */,
+				29E5B0FB1765F6D000FCAC24 /* UIImageExtras.m */,
 				29602E201763C8E0005D4C8D /* YGDocumentHelper.h */,
 				29602E211763C8E0005D4C8D /* YGDocumentHelper.m */,
 			);
