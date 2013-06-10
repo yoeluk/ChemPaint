@@ -11,5 +11,4 @@
 @interface NSDate (FormattedStrings)
 
 - (NSString *)mediumString;
-
 @end

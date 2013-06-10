@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290B4DA91765FCB6002FF37F /* NSDate+FormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5B0F91765F6D000FCAC24 /* NSDate+FormattedStrings.m */; };
+		290B4DAA1765FCBA002FF37F /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5B0FB1765F6D000FCAC24 /* UIImageExtras.m */; };
 		2950899D1744EC47009B108A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2950899B1744EC47009B108A /* logo.png */; };
 		2950899E1744EC47009B108A /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2950899C1744EC47009B108A /* logo@2x.png */; };
 		29602E0D175FFCD5005D4C8D /* YGTableFeatureRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29602E0C175FFCD5005D4C8D /* YGTableFeatureRequest.m */; };
@@ -398,6 +400,8 @@
 				29602E1F1763BFF9005D4C8D /* YGChemPaintDoc.m in Sources */,
 				29602E221763C8E0005D4C8D /* YGDocumentHelper.m in Sources */,
 				29E5B0EF1765DB4600FCAC24 /* YGLoadSaveController.m in Sources */,
+				290B4DA91765FCB6002FF37F /* NSDate+FormattedStrings.m in Sources */,
+				290B4DAA1765FCBA002FF37F /* UIImageExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
