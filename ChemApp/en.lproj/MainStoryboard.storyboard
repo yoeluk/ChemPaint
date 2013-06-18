@@ -166,7 +166,7 @@
             <objects>
                 <tableViewController autoresizesArchivedViewToFullSize="NO" id="Ij3-H9-5bJ" customClass="YGTableFeatureRequest" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CXg-Mt-8Wj">
-                        <rect key="frame" x="0.0" y="64" width="310" height="464"/>
+                        <rect key="frame" x="0.0" y="64" width="310" height="656"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="pca-Kh-oUu">
@@ -229,7 +229,7 @@
             <objects>
                 <viewController storyboardIdentifier="infoViewController" autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="currentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qQJ-3G-7Be" sceneMemberID="viewController">
                     <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="EFQ-EL-RpY">
-                        <rect key="frame" x="0.0" y="64" width="300" height="464"/>
+                        <rect key="frame" x="0.0" y="64" width="300" height="656"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ChemDoodle Web Components " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" adjustsFontSizeToFit="NO" id="TkR-o9-7Wx">
@@ -305,7 +305,7 @@
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>

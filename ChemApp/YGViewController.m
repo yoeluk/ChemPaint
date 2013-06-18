@@ -26,7 +26,7 @@
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(openMolFile:) name:@"openMolFileNotification" object:nil];
 	fileURL_ = [NSURL URLWithString:@"empty"];
 	showCopyMe_ = NO;
-	[self.view.layer setCornerRadius:5.0f];
+	//[self.view.layer setCornerRadius:5.0f];
 	[self.view.layer setMasksToBounds:YES];
 	[self.view clipsToBounds];
 	
@@ -76,7 +76,6 @@
 		
 	}
 	[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlString]]];
-	
 	
 //	if (self.documentsInCloud) {
 //        _query = [[NSMetadataQuery alloc] init];
