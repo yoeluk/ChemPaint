@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7AC25BE9-8898-4376-8D22-550ADBC6E311</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChemPaint</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AD718ED-B9E6-49B5-9B12-A7AE80C50A54</key>
+		<string>https://github.com/yoeluk/ChemPaint.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChemPaint.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AD718ED-B9E6-49B5-9B12-A7AE80C50A54</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yoeluk/ChemPaint.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7AD718ED-B9E6-49B5-9B12-A7AE80C50A54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AD718ED-B9E6-49B5-9B12-A7AE80C50A54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChemApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
