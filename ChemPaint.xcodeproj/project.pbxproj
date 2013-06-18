@@ -336,6 +336,16 @@
 				CLASSPREFIX = YG;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Lewis Dots";
+				TargetAttributes = {
+					29E3E7391704C8A50020C6E5 = {
+						DevelopmentTeam = JN4BWPC6UG;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = 29E3E7351704C8A50020C6E5 /* Build configuration list for PBXProject "ChemPaint" */;
 			compatibilityVersion = "Xcode 3.2";

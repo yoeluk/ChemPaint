@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="a67-d2-qtK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4457.6" systemVersion="13A476u" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="a67-d2-qtK">
     <dependencies>
-        <deployment version="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment version="1280" defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
     </dependencies>
     <scenes>
         <!--Table View Controller - Root View Controller-->
@@ -29,6 +29,7 @@
                             <outlet property="delegate" destination="gav-YM-VWo" id="lsJ-5X-nYc"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Root View Controller" id="zEd-RD-AYs"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTB-7p-vTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -39,6 +40,7 @@
         <scene sceneID="Xaf-lb-Rtg">
             <objects>
                 <navigationController storyboardIdentifier="lsDocNavController" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="formSheet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="urr-nC-PLJ" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cxf-Ol-H1s">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -54,6 +56,7 @@
         <scene sceneID="0Y3-j1-umH">
             <objects>
                 <navigationController toolbarHidden="NO" id="zir-vD-nJK" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gYZ-5z-Iu6">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -73,6 +76,7 @@
         <scene sceneID="K7k-Hd-XyI">
             <objects>
                 <splitViewController id="a67-d2-qtK" customClass="YGSplitViewController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <connections>
                         <segue destination="zir-vD-nJK" kind="relationship" relationship="masterViewController" id="cqK-XC-ztt"/>
@@ -88,17 +92,17 @@
             <objects>
                 <viewController id="2" customClass="YGViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
-                        <rect key="frame" x="0.0" y="20" width="703" height="748"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView multipleTouchEnabled="YES" contentMode="scaleToFill" id="O3w-nT-1Hm" customClass="YGWebView">
-                                <rect key="frame" x="0.0" y="0.0" width="703" height="748"/>
+                                <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="kAd-91-uyG">
-                                <rect key="frame" x="705" y="57" width="18" height="19"/>
+                                <rect key="frame" x="705" y="57" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="highlighted">
@@ -109,6 +113,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="infoBtn" destination="kAd-91-uyG" id="fGj-Ti-2rN"/>
@@ -128,6 +133,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="4jY-YZ-6J3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4n0-py-AJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -138,6 +144,7 @@
         <scene sceneID="Rfd-xq-VuA">
             <objects>
                 <navigationController storyboardIdentifier="infoNavController" modalPresentationStyle="currentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3PL-0b-pUF" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="LyS-ak-5f5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="H4k-R5-OIh">
                         <autoresizingMask key="autoresizingMask"/>
@@ -159,7 +166,7 @@
             <objects>
                 <tableViewController autoresizesArchivedViewToFullSize="NO" id="Ij3-H9-5bJ" customClass="YGTableFeatureRequest" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CXg-Mt-8Wj">
-                        <rect key="frame" x="0.0" y="64" width="310" height="400"/>
+                        <rect key="frame" x="0.0" y="64" width="310" height="464"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="pca-Kh-oUu">
@@ -205,6 +212,7 @@
                             <outlet property="delegate" destination="Ij3-H9-5bJ" id="xkI-BT-QoE"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Feature Request" id="oDf-LC-RfQ"/>
                     <value key="contentSizeForViewInPopover" type="size" width="310" height="400"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -221,7 +229,7 @@
             <objects>
                 <viewController storyboardIdentifier="infoViewController" autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="currentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qQJ-3G-7Be" sceneMemberID="viewController">
                     <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="EFQ-EL-RpY">
-                        <rect key="frame" x="0.0" y="64" width="300" height="400"/>
+                        <rect key="frame" x="0.0" y="64" width="300" height="464"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ChemDoodle Web Components " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" adjustsFontSizeToFit="NO" id="TkR-o9-7Wx">
@@ -284,6 +292,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Info and Credits" id="LTA-4N-Oqz">
                         <barButtonItem key="backBarButtonItem" title="Info" id="0QH-jW-nSZ"/>
                     </navigationItem>

@@ -78,8 +78,6 @@
 	[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlString]]];
 	
 	
-	
-	
 //	if (self.documentsInCloud) {
 //        _query = [[NSMetadataQuery alloc] init];
 //        [_query setSearchScopes:[NSArray arrayWithObjects:NSMetadataQueryUbiquitousDocumentsScope, nil]];
